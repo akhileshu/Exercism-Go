@@ -10,6 +10,7 @@ func PreparationTime(layers []string, preparationTimePerLayer int) int {
 	return len(layers) * preparationTimePerLayer
 }
 
+// utility
 func Count[T comparable](items []T, target T) int {
 	count := 0
 

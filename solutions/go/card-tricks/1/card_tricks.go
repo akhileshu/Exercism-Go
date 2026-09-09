@@ -6,6 +6,7 @@ func FavoriteCards() []int {
 	return []int{2, 6, 9}
 }
 
+// utility
 func GetSliceItemAtIndex[T any](slice []T, index int) (T, bool) {
 	if index < 0 || index >= len(slice) {
 		var zero T
